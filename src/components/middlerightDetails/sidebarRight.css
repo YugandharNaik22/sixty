@@ -1,0 +1,52 @@
+.header-for-middle-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    
+}
+.dropdown{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border: 2px;
+    border-color: gray  ;
+}
+.recent{
+    color: rgb(20, 162, 209);
+}
+.middle-right-main-container{
+    width: 30%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 5px  #c9ced6;
+    margin-bottom: 5px;
+    margin-top: 85px;
+    height: 75%;
+}
+
+.dot-and-line-container{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    align-items: baseline;
+}
+.dot-for-showing-Date{
+    font-size: 50px;
+    margin: 10px;
+}
+.massage-container{
+    padding: 15px;
+    margin: 10px;
+    width: 90%;
+    border-left: solid;
+    border-left: 3px solid rgb(146, 141, 141);
+}
+.timeline{
+    width: 100%;
+    margin: 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
